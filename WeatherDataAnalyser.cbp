@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="WeatherDataAnalyser" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/WeatherDataAnalyser" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/WeatherDataAnalyser" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wextra" />
+			<Add option="-Weffc++" />
+			<Add option="-Wfloat-equal" />
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add option="-Isrc" />
+		</Compiler>
+		<Unit filename="src/BST.h" />
+		<Unit filename="src/Date.cpp" />
+		<Unit filename="src/Date.h" />
+		<Unit filename="src/KeyedRecord.cpp" />
+		<Unit filename="src/KeyedRecord.h" />
+		<Unit filename="src/Map.h" />
+		<Unit filename="src/Statistics.cpp" />
+		<Unit filename="src/Statistics.h" />
+		<Unit filename="src/Vector.h" />
+		<Unit filename="src/WeatherAnalyser.cpp" />
+		<Unit filename="src/WeatherAnalyser.h" />
+		<Unit filename="src/WeatherDataReader.cpp" />
+		<Unit filename="src/WeatherDataReader.h" />
+		<Unit filename="src/WeatherDataStore.cpp" />
+		<Unit filename="src/WeatherDataStore.h" />
+		<Unit filename="src/WeatherKey.cpp" />
+		<Unit filename="src/WeatherKey.h" />
+		<Unit filename="src/WeatherRecord.h" />
+		<Unit filename="src/WeatherTime.cpp" />
+		<Unit filename="src/WeatherTime.h" />
+		<Unit filename="src/main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
